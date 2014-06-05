@@ -1,0 +1,30 @@
+﻿<Window x:Class="MinecraftServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewModel="clr-namespace:MinecraftServer.GUI"
+        xmlns:mcs="clr-namespace:MinecraftServer"
+        Title="Minecraft Server" Height="540" Width="960"
+        ResizeMode="CanMinimize">
+    
+    <Window.DataContext>
+        <viewModel:ViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <!--List Client-->
+        <ListView ItemsSource="{Binding Clients}" HorizontalAlignment="Left" Height="494" Margin="5,5,0,0" VerticalAlignment="Top" Width="138">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!--Console Logs-->
+        <mcs:console Logs="{Binding Logs}" HorizontalAlignment="Left" Height="467" Margin="148,5,0,0" VerticalAlignment="Top" Width="794" RenderTransformOrigin="-0.21,-1.265"/>
+
+        <!--Console Input-->
+        <TextBox x:Name="input" HorizontalAlignment="Left" Height="22" Margin="148,477,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="794"/>
+
+    </Grid>
+</Window>

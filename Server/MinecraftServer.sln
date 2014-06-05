@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftServer", "MinecraftServer\MinecraftServer.csproj", "{0D30DAA1-4D07-48AB-8952-23680FDB2C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldGeneration", "WorldGeneration\WorldGeneration.csproj", "{4E4EDB19-F479-4117-A645-6792B1CB734E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICSharpCode.SharpZLib", "ZLib\ICSharpCode.SharpZLib.csproj", "{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Net40", "Json\Newtonsoft.Json.Net40.csproj", "{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D30DAA1-4D07-48AB-8952-23680FDB2C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D30DAA1-4D07-48AB-8952-23680FDB2C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D30DAA1-4D07-48AB-8952-23680FDB2C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D30DAA1-4D07-48AB-8952-23680FDB2C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4EDB19-F479-4117-A645-6792B1CB734E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4EDB19-F479-4117-A645-6792B1CB734E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4EDB19-F479-4117-A645-6792B1CB734E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4EDB19-F479-4117-A645-6792B1CB734E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

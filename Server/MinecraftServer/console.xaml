@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="MinecraftServer.console"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="467" d:DesignWidth="794">
+    <Grid>
+        <RichTextBox Name="cmd" IsReadOnly="True" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Height="467" Margin="0,0,0,0" VerticalAlignment="Top" Width="794" RenderTransformOrigin="-0.21,-1.265">
+            <FlowDocument/>
+        </RichTextBox>
+    </Grid>
+</UserControl>
